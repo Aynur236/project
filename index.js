@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 var number = 5;
 var string = "Hello!";
 var sym = Symbol();
@@ -53,4 +51,4 @@ console.log("2" === 2)
 let isChecked = true,
     isClose = false;
 
-console.log(isChecked && isClose)
+console.log(isChecked || !isClose);
